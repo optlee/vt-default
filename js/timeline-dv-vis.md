@@ -9,7 +9,7 @@ const localCssPath = "Scripts/vis-timeline-graph2d.min.css";
 
 // ================= 核心代码 =================
 
-const container = dv.el("div", "⏳ 正在加载本地组件...", { attr: { style: "height: 800px; border: 1px solid var(--background-modifier-border);" } });
+const container = dv.el("div", "⏳ 正在加载本地组件...", { attr: { style: "height: 400px; border: 1px solid var(--background-modifier-border);" } });
 
 // 获取本地文件的真实系统路径 (app://...)
 const getLocalPath = (path) => {
